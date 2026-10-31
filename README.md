@@ -1,3 +1,20 @@
+<p align="center">
+  <img src="docs/logo.svg" width="96" alt="SagAtlas">
+</p>
+
+<h1 align="center">SagAtlas</h1>
+<p align="center"><strong>One voltage sag, every grid's verdict.</strong><br>
+Data-center ride-through rules from ERCOT, SPP, PJM and CAISO, compared on the same disturbances.</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/grids-4-0F2A44.svg" alt="grids: 4">
+  <img src="https://img.shields.io/badge/events-7-0F2A44.svg" alt="events: 7">
+  <img src="https://img.shields.io/badge/split%20verdicts-5%20of%207-F2B544.svg" alt="split verdicts: 5 of 7">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg" alt="CC BY 4.0"></a>
+</p>
+
+---
+
 ## Four grids, four answers: the same voltage sag under ERCOT, SPP, PJM and CAISO data-center ride-through rules
 
 According to published summaries of a 16 July 2026 FERC order, FERC directed NERC to file mandatory standards for computational loads such as data centers by 31 December 2026. In the meantime, US grid operators are writing their own ride-through rules for these loads, separately. We encoded the published voltage ride-through tables of four of them and ran the same disturbances through each.
