@@ -1,0 +1,9 @@
+grid,status_2026_10_31,min_ride_through_at_0.45pu_s,restore_pct,restore_within_s
+SPP,in force,0.15,90,1 (default)
+SONI,proposed,0.15,90 (should),0.5
+ERCOT,adopted,0.25,90,2
+PJM,proposed (draft),0.25,90,2
+IESO,applies to LCLs whose final SIA and NoCA were issued after 30 June 2026,0.25,100 (UPS changeover loads),1
+AESO,guidance,0.3,100,1 (default)
+Energinet,in force (>=200 MW demand facilities),0.723,80 / 90,5 / 20
+CAISO,straw proposal,1.2,90,3

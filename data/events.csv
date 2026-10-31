@@ -1,8 +1,8 @@
-sag_pu,sag_s,trips_at_s,back_to_90pct_s,ERCOT,SPP,PJM_proposed,CAISO_straw
-0.85,1.5,,0.6,pass,pass,pass,pass
-0.45,0.20,0.18,0.8,fail,pass,fail,fail
-0.45,0.30,0.26,1.5,pass,fail,pass,fail
-0.70,0.4,,1.4,pass,fail,pass,pass
-0.10,0.2,0.16,0.8,pass,pass,fail,pass
-0.45,1.5,0.6,2.5,fail,fail,fail,fail
-0.60,1.0,,2.5,fail,fail,fail,pass
+sag_pu,sag_s,trips_at_s,back_to_90pct_s,ERCOT,SPP,PJM,CAISO,AESO,IESO,Energinet,SONI
+0.85,1.5,,0.6,pass,pass,pass,pass,unknown,unknown,pass,fail
+0.45,0.20,0.18,0.8,fail,pass,fail,fail,fail,fail,fail,fail
+0.45,0.30,0.26,1.5,pass,fail,pass,fail,fail,unknown,fail,fail
+0.7,0.4,,1.4,pass,fail,pass,pass,fail,unknown,pass,fail
+0.10,0.2,0.16,0.8,pass,pass,fail,pass,unknown,unknown,pass,fail
+0.45,1.5,0.6,2.5,fail,fail,fail,fail,fail,unknown,fail,fail
+0.60,1.0,,2.5,fail,fail,fail,pass,fail,unknown,pass,fail
