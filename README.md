@@ -45,3 +45,22 @@ Five of the seven events produce different verdicts across the four grids. A fac
 Scope and limits: verdicts apply each table to the whole facility load. We apply each grid's return-to-90% deadline after a trip as well as after ride-through; SPP states this explicitly, and for ERCOT and PJM it is our reading of text written for conditions within the ride-through envelope. ERCOT and PJM exclude cooling load that trips below 0.35 pu from the recovery calculation, and SPP allows exemptions for variable-speed drives; either can change a row for a real site. PJM's table is a draft under its Planning Committee and CAISO's is a straw proposal; both may change. This compares written rules; it is not a compliance determination for any facility.
 
 Sources: ERCOT NOGRR282 as approved by the PUCT on 9 July 2026 (effective 1 August 2026); SPP HILL Fault Ride-Through Requirements (implemented 15 January 2026; tariff requirement accepted by FERC in ER26-247), section 4; PJM Manual 14B Attachment D-2, Planning Committee materials of 6 October 2026 (draft); CAISO Large Load Technical Requirements Straw Proposal, 15 June 2026, sections 2.2-2.3; published summaries of the FERC order of 16 July 2026 directing NERC computational-load standards.
+
+## Data
+
+The tables above, as CSV: [`data/rules.csv`](data/rules.csv) (minimum ride-through time by voltage band, and recovery deadlines) and [`data/events.csv`](data/events.csv) (the seven disturbances and their verdicts).
+
+## Contributing, corrections, citation
+
+- **Contributions:** see [CONTRIBUTING.md](CONTRIBUTING.md). A rule table from a grid that is not here yet is the most valuable thing you can send.
+- **Corrections:** if a value is wrong or a rule has changed, open an issue quoting the source sentence. Corrections are fixed first.
+- **Changes:** [CHANGELOG.md](CHANGELOG.md).
+
+If you use SagAtlas in a paper, a filing, a study or a design review, cite it:
+
+```
+SagAtlas contributors (2026). SagAtlas: data-center voltage ride-through rules of ERCOT, SPP, PJM
+and CAISO compared on common disturbances. GitHub repository "sagatlas".
+```
+
+Licensed CC BY 4.0.
